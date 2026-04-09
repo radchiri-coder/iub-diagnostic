@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-height: 100dvh;
+  }
+
+  /* Selection color */
+  ::selection {
+    background-color: rgba(15, 110, 86, 0.15);
+  }
+}
+
+@layer components {
+  .screen-container {
+    @apply mx-auto w-full max-w-content px-5 py-8 sm:py-12;
+  }
+}
