@@ -44,11 +44,11 @@ export function LandingScreen({ onStart }: LandingScreenProps) {
       {/* Trust block */}
       <footer className="border-t border-ink/10 pt-6 pb-4 space-y-3">
         <p className="text-sm text-ink-secondary">
-          <span className="font-medium text-ink">Ирина Ра��ченко</span> — независимый управленческий
+          <span className="font-medium text-ink">Ирина Радченко</span> — независимый управленческий
           консультант, 17+ лет опыта, фасилитатор стратегических сессий.
         </p>
         <p className="text-xs text-ink-muted leading-relaxed">
-          Методология основа��а на практике работы с компаниями от 10 до 250 сотрудников
+          Методология основана на практике работы с компаниями от 10 до 250 сотрудников
           в IT, EdTech, медиа, производстве и сервисных отраслях. Это экспертный инструмент
           рефлексии, а не психометрический тест. Результат — не диагноз, а карта для разговора.
         </p>

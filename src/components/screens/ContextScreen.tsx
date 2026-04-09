@@ -54,7 +54,7 @@ export function ContextScreen({ onSubmit, initialSize, initialStage, initialIndu
       {/* Stage */}
       <fieldset className="mt-8">
         <legend className="text-sm font-medium text-ink-secondary mb-3">
-          Что лучш�� описывает текущую ситуацию?
+          Что лучше описывает текущую ситуацию?
         </legend>
         <div className="grid gap-2">
           {COMPANY_STAGES.map((opt) => (

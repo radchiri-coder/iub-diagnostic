@@ -26,7 +26,7 @@ export function buildInterpretationKey(
   return `${categoryId}_${level}_${stage}`;
 }
 
-// ── Benchmark comparison ──────────────────────────────────────���───────
+// ── Benchmark comparison ──────────────────────────────────────────────
 
 export function compareToBenchmark(
   categoryResults: CategoryResult[],
@@ -47,7 +47,7 @@ export function compareToBenchmark(
   });
 }
 
-// ── Full result assembly ────────────────────────────────────���─────────
+// ── Full result assembly ──────────────────────────────────────────────
 
 /**
  * Assemble the complete DiagnosticResult from raw answers and context.
